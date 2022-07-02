@@ -1,0 +1,20 @@
+@import "./_variables.scss";
+@import "./Navbar.scss";
+@import "./Cards.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $FontFamily;
+}
+
+body {
+  background-color: $SoftBlue;
+}
+
+.header-div {
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+}

@@ -1,0 +1,17 @@
+@import "./_variables.scss";
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: $PatrolGreen;
+  font-size: 1.4rem;
+  color: $White;
+  .nav-links {
+    padding: 0.6rem 1.1rem;
+    cursor: pointer;
+    &:hover {
+      background-color: $SoftBlue;
+      color: $Black;
+    }
+  }
+}

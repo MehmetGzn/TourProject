@@ -1,9 +1,14 @@
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+import Cards from "./components/Cards";
+import "./scss/app.scss";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>I am here</h1>
-      </header>
+    <div>
+      <Navbar />
+      <Header />
+      <Cards />
     </div>
   );
 }
