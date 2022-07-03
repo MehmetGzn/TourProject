@@ -1,3 +1,5 @@
+@import "./variables", "./_mixins.scss";
+
 .cards-container {
   display: flex;
   flex-wrap: wrap;
@@ -37,5 +39,11 @@
       transform: translateY(130%);
       z-index: 1;
     }
+  }
+}
+
+@include media-xsm {
+  .cards {
+    width: 300px;
   }
 }

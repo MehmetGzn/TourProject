@@ -1,8 +1,9 @@
-@import "./_variables.scss";
+@import "./variables", "./_mixins.scss";
 
 .navbar {
   display: flex;
   justify-content: center;
+  text-align: center;
   background-color: $PatrolGreen;
   font-size: 1.4rem;
   color: $White;
@@ -13,5 +14,16 @@
       background-color: $SoftBlue;
       color: $Black;
     }
+  }
+}
+
+@include media-xsm {
+  .navbar {
+    flex-direction: column;
+  }
+}
+@include media-sm {
+  .navbar {
+    flex-direction: row;
   }
 }

@@ -1,6 +1,5 @@
-@import "./_variables.scss";
-@import "./Navbar.scss";
-@import "./Cards.scss";
+@import "./_variables.scss", "./_mixins.scss";
+@import "./Navbar.scss", "./Cards.scss";
 
 * {
   margin: 0;
