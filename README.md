@@ -2,6 +2,10 @@
 
 The first react project.
 
+# Page
+
+https://mehmetgzn.github.io/tour-project/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
